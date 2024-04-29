@@ -843,6 +843,7 @@ section {
 }
 
 .portfolio .portfolio-img img{
+  transform: scale(0.8);
   max-width: 100%;
   width:auto;
   height:100%;
@@ -911,7 +912,7 @@ section {
 }
 
 .portfolio .portfolio-item:hover .portfolio-img img {
-  transform: scale(1.15);
+  transform: scale(1);
 }
 
 .portfolio .portfolio-item:hover .portfolio-info {
