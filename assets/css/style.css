@@ -40,7 +40,7 @@ h6 {
 }
 
 #preloader:before {
-  content: "";
+  content: "Loading";
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
