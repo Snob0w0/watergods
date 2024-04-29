@@ -1263,12 +1263,6 @@ section {
   transition: 0.3s;
 }
 
-#footer .footer-right {
-  position: absolute;
-  justify-content:right;
-  padding-right: 100px;
-}
-
 @media (max-width: 768px) {
   #footer .footer-bottom {
     padding-top: 20px;
