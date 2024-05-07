@@ -60,6 +60,54 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Advertise
+--------------------------------------------------------------*/
+#advertise {
+  padding-top: 75px;
+  z-index: 999;
+}
+
+#advertise .container {
+  width: 37.5%;
+  height: auto;
+}
+
+#advertise .container .close:hover {
+  color: #47b2e4;
+}
+
+.hide { 
+  display: none;
+}
+
+@media (max-width: 1366px) {
+  #advertise .container {
+    width:42.5%;
+    height:auto;
+  }
+}
+
+@media (max-width: 991px) {
+  #advertise .container {
+    width:37.5%;
+    height:auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #advertise .container {
+    width:47.5%;
+    height:auto;
+  }
+}
+
+@media (max-width: 575px) {
+  #advertise .container {
+    width:62.5%;
+    height:auto;
+  }
+}
+/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {

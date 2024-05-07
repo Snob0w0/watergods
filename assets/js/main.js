@@ -35,6 +35,16 @@
   }
 
   /**
+   * Close Tab
+   */
+  const closeTab = document.querySelector("#close-tab")
+  const tab = document.querySelector("#advertise")
+
+  closeTab.addEventListener("click", () =>{
+    tab.classList.toggle("hide")
+  })
+
+  /**
    * Navbar links active state on scroll
    */
   let navbarlinks = select('#navbar .scrollto', true)
