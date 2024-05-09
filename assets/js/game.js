@@ -65,10 +65,10 @@ function selectTile() {
     }
     if (this == currObwTile) {
         score += 1;
-        document.getElementById("score").innerText = "勤洗手 +" + score.toString();
+        document.getElementById("score").innerText = "水神守護你" + score.toString() + "次";
     }
     else if (this == currObjTile) {
-        document.getElementById("score").innerText = "我生病了QAQ，我只洗了 " + score.toString() + "次";
+        document.getElementById("score").innerText = "我不小心了QAQ，我只使用水神" + score.toString() + "次";
         gameOver = true;
     }
 }
